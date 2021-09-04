@@ -30,9 +30,6 @@ public class User {
 
     private BankData bankData;
 
-    @Builder.Default
-    private List<Item> items = new ArrayList<Item>();
-
     @Getter
     @Setter
     @Builder
